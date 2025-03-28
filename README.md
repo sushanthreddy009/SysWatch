@@ -138,11 +138,6 @@ sudo ./scripts/network_monitor.sh
 - It started as a simple CPU monitor and turned into an entire system monitoring toolkit.
 - If you find a bug, it’s a **feature**. Just kidding, open an issue!
 
-## 👨‍💻 Contributors
-
-- **Sushanth Reddy** ([@sushanthereddy009](https://github.com/sushanthereddy009)) - Main Developer
-- **You!** - Feel free to contribute! Fork & PR 🚀
-
 ## 📜 License
 
 **SysWatch** is open-source and available under the MIT License. Use it, modify it, break it, fix it, and share it! 😃
