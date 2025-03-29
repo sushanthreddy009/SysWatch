@@ -20,7 +20,7 @@ SysWatch/
 │── auth/                  # User authentication scripts
 │── game/                  # Game-related monitoring scripts
 │── logs/                  # Log files
-│── alerts                 
+│── alerts/                 
 │── reports/               # Generated reports (optional)
 │── scripts/               # Main monitoring scripts
 │   │── cpu_monitor.sh     # CPU monitoring
