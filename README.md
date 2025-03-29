@@ -38,6 +38,11 @@ SysWatch/
 │── README.md              # This beautiful documentation 🎉
 ```
 
+## Main Dashboard
+
+![image](https://github.com/user-attachments/assets/37bb2fff-1acb-4975-a783-5402318f3681)
+
+
 ## 🛠️ Installation
 
 1. **Clone this repository** 🏃💨
