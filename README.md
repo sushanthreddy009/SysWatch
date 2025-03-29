@@ -21,12 +21,8 @@ SysWatch/
     │── singup.sh
     │── login.sh
     │── logout.sh
-    │── forgot_password.sh         
-│── game/                  # Game-related scripts
-    │── lucky_number_3chances.sh               
-│── logs/                  # Log files
-│── alerts/                # alerts will be stored here
-│── reports/               # Generated reports (optional)
+    │── forgot_password.sh
+│── dashboard.sh           # Main Dashboard to run all the scripts        
 │── scripts/               # Main monitoring scripts
 │   │── cpu_monitor.sh     # CPU monitoring
 │   │── disk_monitor.sh    # Disk monitoring
@@ -34,7 +30,11 @@ SysWatch/
 │   │── memory_monitor.sh  # Memory monitoring
 │   │── network_monitor.sh # Network monitoring
 │   │── process_monitor.sh # Process monitoring
-│── dashboard.sh           # Main Dashboard to run all the scripts
+│── game/                  # Game-related scripts
+    │── lucky_number_3chances.sh               
+│── logs/                  # Log files
+│── alerts/                # alerts will be stored here
+│── reports/               # Generated reports (optional)
 │── README.md              # This beautiful documentation 🎉
 ```
 
