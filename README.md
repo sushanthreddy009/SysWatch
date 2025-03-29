@@ -19,7 +19,8 @@
 SysWatch/
 │── auth/                  # User authentication scripts
 │── game/                  # Game-related monitoring scripts
-│── logs/                  # Log files (if enabled)
+│── logs/                  # Log files
+│── alerts                 
 │── reports/               # Generated reports (optional)
 │── scripts/               # Main monitoring scripts
 │   │── cpu_monitor.sh     # CPU monitoring
@@ -28,7 +29,7 @@ SysWatch/
 │   │── memory_monitor.sh  # Memory monitoring
 │   │── network_monitor.sh # Network monitoring
 │   │── process_monitor.sh # Process monitoring
-│── dashboard.sh           # Central script to display all stats
+│── dashboard.sh           # Main Dashboard to run all the scripts
 │── README.md              # This beautiful documentation 🎉
 ```
 
