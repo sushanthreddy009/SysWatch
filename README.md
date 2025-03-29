@@ -11,21 +11,26 @@
 - **Disk Monitoring** 💾 - Get detailed storage usage insights.
 - **Process Monitoring** 🧐 - Track running processes and resource consumption.
 - **Network Monitoring** 🌐 - Monitor network traffic and active connections.
-- **Game Monitoring** 🎮 - Because why not? Detect running games and their resource usage.
+- **Game Monitoring** 🎮 - Because why not? Detect running games and their resource usage. 
 
 ## 📂 Project Structure
 
 ```
 SysWatch/
 │── auth/                  # User authentication scripts
-│── game/                  # Game-related monitoring scripts
+    │── singup.sh
+    │── login.sh
+    │── logout.sh
+    │── forgot_password.sh         
+│── game/                  # Game-related scripts
+    │── lucky_number_3chances.sh               
 │── logs/                  # Log files
-│── alerts/                 
+│── alerts/                # alerts will be stored here
 │── reports/               # Generated reports (optional)
 │── scripts/               # Main monitoring scripts
 │   │── cpu_monitor.sh     # CPU monitoring
 │   │── disk_monitor.sh    # Disk monitoring
-│   │── game_monitor.sh    # Game monitoring
+│   │── game_monitor.sh    # Game monitoring for lucky_number_3chances.sh
 │   │── memory_monitor.sh  # Memory monitoring
 │   │── network_monitor.sh # Network monitoring
 │   │── process_monitor.sh # Process monitoring
